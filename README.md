@@ -1,6 +1,6 @@
 # Chocolita Installer
 Instalador para el tema base de Wordpress [Chocolita.](https://github.com/monchitonet/Chocolita)
-![alt tag](https://raw.githubusercontent.com/kikeonline/chocolita-install/master/readme/screen.png)
+![alt tag](https://raw.githubusercontent.com/kikeonline/chocolita-install/master/screen.png)
 
 # Instalación/Uso
 
