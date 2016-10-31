@@ -8,25 +8,16 @@ cc_yellow="${esc}[0;33m"
 cc_blue="${esc}[0;34m"
 cc_normal=`echo -en "${esc}[m\017"`
 
-#Limpieza de errores
+#Limpieza al salir
 function cleanup_before_quit () {
   tput cup 13 0
   tput setaf 3
-  echo -e "El instalador ha terminado, no se instaló Chocolita.                   "
+  echo -e "El instalador ha terminado, no se instaló Chocolita.                         "
   tput sgr0
   tput cnorm
-  exit 0
+  exit
 }
 trap cleanup_before_quit SIGINT SIGQUIT SIGTSTP
-function cleanup_before_err () {
-  tput setaf 3
-  echo
-  echo -e "${cc_red}No se pudo instalar ✘, por favor reportar el error.${cc_normal}"
-  tput sgr0
-  tput cnorm
-  exit 1
-}
-trap cleanup_before_err EXIT
 
 #Banner
 function banner() {
@@ -90,5 +81,10 @@ if git clone https://github.com/monchitonet/Chocolita.git ${name} ; then
 	echo "Ingresa a WordPress y activa el tema. Para más información entra a https://github.com/monchitonet/Chocolita"
 	exit
 else
+	tput setaf 3
+	echo
+	echo -e "${cc_red}No se pudo instalar ✘, por favor reportar el error.${cc_normal}"
+	tput sgr0
+    tput cnorm
 	exit 1
 fi
