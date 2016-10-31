@@ -2,13 +2,9 @@
 Instalador para el tema base de Wordpress [Chocolita.](https://github.com/monchitonet/Chocolita)
 ![alt tag](https://raw.githubusercontent.com/kikeonline/chocolita-install/master/screen.png)
 
-# Instalación/Uso
-Primero que todo asegurarte de que estas en la carpeta themes de Wordpress.
-cd /wordpress/wp-content/themes/
-  ```shell
-  $ cd /wordpress/wp-content/themes/
-  ```
-  
+# Instalación/Us
+Primero que todo asegurarte de que estas en la carpeta themes de Wordpress /wordpress/wp-content/themes/.
+
 #### Opción 1: Ejectuar el script desde server remoto.
 1. Introducir la siguiente linea en la [Terminal.](https://www.google.com.ni/search?q=google+search+link&oq=google+search+link&aqs=chrome..69i57j69i64.3252j0j4&sourceid=chrome&es_sm=119&ie=UTF-8#q=terminal+window&pws=1) 
   
