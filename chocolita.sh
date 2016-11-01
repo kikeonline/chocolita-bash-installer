@@ -67,6 +67,11 @@ echo -e "-------------------------------------------"
 if git clone https://github.com/monchitonet/Chocolita.git ${name} ; then
 	echo -e "-------------------------------------------"
 	cd ${name}
+  #Cambiar todas las cadenas al nombre seleccionado por el usuario
+  grep -rl "'chocolita'" ./ | xargs sed -i "s/'chocolita'/'${name}'/g" #text domain
+  grep -rl "chocolita_" ./ | xargs sed -i "s/chocolita_/${name}_/g" #function name
+  grep -rl " chocolita" ./ | xargs sed -i "s/ chocolita/ ${name}/g" #DocBlocks
+  grep -rl "chocolita-" ./ | xargs sed -i "s/chocolita-/${name}-/g" #prefixed handles
 	echo
 	sed -i "" "s/playground/${host}/g" gulpfile.js
 	read -p "¿Queres correr \"npm install\" en ${name}/ (y/N)? " yn
@@ -78,6 +83,7 @@ if git clone https://github.com/monchitonet/Chocolita.git ${name} ; then
 	fi
 	echo
 	echo -e "${cc_green}Chocolita se ha instalado sin problemas ✓${cc_normal}"
+	echo -e "${cc_yellow}Recuerda editar el archivo style.css y cambiar el nombre, descripción, URI y autor del tema.${cc_normal}"
 	echo "Ingresa a WordPress y activa el tema. Para más información entra a https://github.com/monchitonet/Chocolita"
 	exit
 else
