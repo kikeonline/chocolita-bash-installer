@@ -26,4 +26,6 @@ Primero que todo asegurarte de que estas en la carpeta themes de Wordpress /word
   ```
   
 ### Contribuciones
+- [Leandro Gómez](https://github.com/leogg)
+
 Con gusto pueden clonar/forkear/pull/push para mejorar el script ✌️
