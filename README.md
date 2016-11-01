@@ -2,25 +2,32 @@
 Instalador para el tema base de Wordpress [Chocolita.](https://github.com/monchitonet/Chocolita)
 ![alt tag](https://raw.githubusercontent.com/kikeonline/chocolita-install/master/screen.gif)
 
-# Instalación/Uso
-Primero que todo asegurarte de que estas en la carpeta themes de Wordpress /wordpress/wp-content/themes/.
+### Instalación y Uso
+En la [Terminal.](https://www.google.com.ni/search? q=google+search+link&oq=google+search+link&aqs=chrome..69i57j69i64.3252j0j4&sourceid=chrome&es_sm=119&ie=UTF-8#q=terminal+window&pws=1) asegurate de que estas en tu carpeta themes de Wordpress /wordpress/wp-content/themes/.
+
+  ```shell
+  $ cd /wordpress/wp-content/themes/
+  ```
 
 #### Opción 1: Ejectuar el script desde server remoto.
-1. Introducir la siguiente linea en la [Terminal.](https://www.google.com.ni/search?q=google+search+link&oq=google+search+link&aqs=chrome..69i57j69i64.3252j0j4&sourceid=chrome&es_sm=119&ie=UTF-8#q=terminal+window&pws=1) 
+1. Copia y pega la siguiente linea, sigue las instrucciones.
   
   ```shell
   $ bash <(curl -s https://raw.githubusercontent.com/kikeonline/chocolita-install/master/chocolita.sh)
   ```
 
 #### Opción 2: Ejecutuar Script localmente.
-1. Bajar el script **chocolita.sh**
-2. En la [Terminal](https://www.google.com.ni/search?q=google+search+link&oq=google+search+link&aqs=chrome..69i57j69i64.3252j0j4&sourceid=chrome&es_sm=119&ie=UTF-8#q=terminal+window&pws=1) dar permisos ejecutables al script.
-  
+1. Baja el script con la siguiente linea.
+  ```shell
+  $ wget https://raw.githubusercontent.com/kikeonline/chocolita-install/master/chocolita.sh
+  ```
+
+2. Dale permisos ejecutables al script.
   ```shell
   $ sudo chmod +x chocolita.sh
   ```
-3. Ejecutar y seguir instrucciones.
   
+3. Ejecutar y sigue instrucciones.
   ```shell
   $ ./chocolita.sh
   ```
