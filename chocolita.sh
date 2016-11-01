@@ -68,10 +68,10 @@ if git clone https://github.com/monchitonet/Chocolita.git ${name} ; then
 	echo -e "-------------------------------------------"
 	cd ${name}
   #Cambiar todas las cadenas al nombre seleccionado por el usuario
-  grep -rl "'chocolita'" ./ | xargs sed -i "s/'chocolita'/'${name}'/g" #text domain
-  grep -rl "chocolita_" ./ | xargs sed -i "s/chocolita_/${name}_/g" #function name
-  grep -rl " chocolita" ./ | xargs sed -i "s/ chocolita/ ${name}/g" #DocBlocks
-  grep -rl "chocolita-" ./ | xargs sed -i "s/chocolita-/${name}-/g" #prefixed handles
+  grep -rl "'chocolita'" ./ | xargs sed -i "" "s/'chocolita'/'${name}'/g" #text domain
+  grep -rl "chocolita_" ./ | xargs sed -i "" "s/chocolita_/${name}_/g" #function name
+  grep -rl " chocolita" ./ | xargs sed -i "" "s/ chocolita/ ${name}/g" #DocBlocks
+  grep -rl "chocolita-" ./ | xargs sed -i "" "s/chocolita-/${name}-/g" #prefixed handles
 	echo
 	sed -i "" "s/playground/${host}/g" gulpfile.js
 	read -p "¿Queres correr \"npm install\" en ${name}/ (y/N)? " yn
