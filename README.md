@@ -8,15 +8,6 @@ En la [Terminal.](https://www.google.com.ni/search? q=google+search+link&oq=goog
   ```shell
   $ cd /wordpress/wp-content/themes/
   ```
-
-#### Opción 1: Ejectuar el script desde server remoto.
-1. Copia y pega la siguiente linea, sigue las instrucciones.
-  
-  ```shell
-  $ bash <(curl -s https://raw.githubusercontent.com/kikeonline/chocolita-install/master/chocolita.sh)
-  ```
-
-#### Opción 2: Ejecutuar Script localmente.
 1. Baja el script con la siguiente linea.
   ```shell
   $ wget https://raw.githubusercontent.com/kikeonline/chocolita-install/master/chocolita.sh
