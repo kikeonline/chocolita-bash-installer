@@ -1,5 +1,5 @@
-# Chocolita Installer
-Instalador para el tema base de Wordpress [Chocolita.](https://github.com/monchitonet/Chocolita)
+# Chocolita Bash Installer
+Instalador en Bash para el tema base de Wordpress [Chocolita.](https://github.com/monchitonet/Chocolita)
 ![alt tag](https://raw.githubusercontent.com/kikeonline/chocolita-install/master/screen.gif)
 
 ### Instalación y Uso
