@@ -25,5 +25,3 @@ En la [Terminal.](https://www.google.com.ni/search? q=google+search+link&oq=goog
   
 ### Contribuciones
 - [Leandro Gómez](https://github.com/leogg)
-
-Con gusto pueden clonar/forkear/pull/push para mejorar el script ✌️
