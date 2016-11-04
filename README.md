@@ -1,5 +1,5 @@
-# ~~Chocolita Bash Installer~~ (Considera esta versión => [Chocolita NPM Installer](https://github.com/kikeonline/chocolita-npm-installer))
-Instalador en Bash para el tema base de Wordpress [Chocolita.](https://github.com/monchitonet/Chocolita). Este instalador ya no está en mantenimiento ni soporte, migre el código a npm: [Chocolita NPM Installer](https://github.com/kikeonline/chocolita-npm-installer)
+# ~~Chocolita Bash Installer~~ => [Chocolita NPM Installer](https://github.com/kikeonline/chocolita-npm-installer)
+~~Instalador en Bash para el tema base de Wordpress [Chocolita.](https://github.com/monchitonet/Chocolita).~~ Este instalador ya no está en mantenimiento ni soporte, mejor mira la versión de npm: [Chocolita NPM Installer](https://github.com/kikeonline/chocolita-npm-installer)
 ![alt tag](https://raw.githubusercontent.com/kikeonline/chocolita-install/master/screen.gif)
 
 ### Instalación y Uso
